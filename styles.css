@@ -36,8 +36,8 @@ h1 {
 }
 
 .card {
-    width: 211.8px;
-    height: 166.2px;
+    width: 211.8px * 0.8; /* Reduce width by 20% */
+    height: 166.2px * 0.8; /* Reduce height by 20% */
     background-color: #565c6f;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
