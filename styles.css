@@ -1,3 +1,17 @@
+aws projects
+
+
+https://www.youtube.com/watch?v=WjZVXBwsm84
+https://www.youtube.com/watch?v=z-jbLgmycYc
+https://www.youtube.com/watch?v=amiIcyt-J2A
+https://www.youtube.com/watch?v=Vrh6-JkwIIk
+
+
+Arcgic
+ariuakvan426
+Ariu@4260118102
+
+
 body {
     font-family: 'Roboto', sans-serif; 
     background-color: #282c34; 
@@ -36,8 +50,8 @@ h1 {
 }
 
 .card {
-    width: 211.8px; /* Original width */
-    height: 166.2px; /* Original height */
+    width: 211.8px;
+    height: 166.2px;
     background-color: #565c6f;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -53,12 +67,6 @@ h1 {
     height: auto;
     visibility: hidden; /* Hide images by default */
     display: block;
-    /* Add srcset attribute for responsive images */
-    srcset: url("image-small.jpg") 320w,
-            url("image-medium.jpg") 768w,
-            url("image-large.jpg") 1024w;
-    /* Fallback image */
-    image-orientation: auto; /* Optional: Preserve image orientation */
 }
 
 .card.show img {
@@ -81,9 +89,10 @@ h1 {
     transform: scale(1.05); /* Slightly enlarges on hover */
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  #game-board {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
+
+
+
+
+
+
+
